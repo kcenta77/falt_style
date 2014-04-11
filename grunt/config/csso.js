@@ -8,8 +8,7 @@ module.exports = {
 			expand: 'true',
 			cwd: 'code/dev/',
 			src: [
-				'css/*styles.css',
-				'!css/*styles.ie*.css'
+				'css/*styles*.css'
 				],
 			dest: 'code/production/',
 			rename: function(dest, matchedSrcPath, options) {
