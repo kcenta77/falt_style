@@ -1,3 +1,150 @@
 <?xml version="1.0" encoding="UTF-8" ?><templates xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
+    <t:page>
+        <b:page>
+            <p:content/>
+        </b:page>
+    </t:page>
+
+    <t:layout>
+        <p:xdocument>
+            <p:page/>
+        </p:xdocument>
+    </t:layout>
+
+    <t:stripe_content_header>
+        <b:stipe>
+            <m:content val="header"/>
+            <p:header>
+               <p:logo/>
+               <p:navigation-block/>
+            </p:header>
+        </b:stipe>
+    </t:stripe_content_header>
+
+    <t:stripe_content_main>
+        <b:stripe>
+          <m:content val="main"/>
+            <b:section>
+                <m:content val="content"/>
+                <b:section>
+                    <m:content val="services" x:id="services"/>
+                    <e:in>
+                        <e:title>Services we Provide</e:title>
+                        <b:line>
+                            <m:color val="green"/>
+                        </b:line>
+                    </e:in>
+                </b:section>
+                <b:section>
+                    <m:content val="team" x:id="team"/>
+                    <e:in>
+                        <e:title>Services we Provide</e:title>
+                        <b:line>
+                            <m:color val="skyblue"/>
+                        </b:line>
+                    </e:in>
+                </b:section>
+                <b:section>
+                    <m:content val="skills" x:id="skills"/>
+                    <e:in>
+                        <e:title>Services we Provide</e:title>
+                        <b:line>
+                            <m:color val="skyblue"/>
+                        </b:line>
+                    </e:in>
+                </b:section>
+                <b:section>
+                    <m:content val="portfolio" x:id="portfolio"/>
+                    <e:in>
+                        <e:title>Services we Provide</e:title>
+                        <b:line>
+                            <m:color val="yellow"/>
+                        </b:line>
+                    </e:in>
+                </b:section>
+            </b:section>
+            <b:section>
+                <m:content val="about" x:id="about"/>
+                <e:in>
+                    <e:title>Services we Provide</e:title>
+                    <b:line>
+                        <m:color val="rose"/>
+                    </b:line>
+                </e:in>
+            </b:section>
+            <b:section>
+                <m:content val="feedback" x:id="feedback"/>
+                <e:in>
+                    <e:title>Services we Provide</e:title>
+                    <b:line>
+                        <m:color val="blue"/>
+                    </b:line>
+                </e:in>
+            </b:section>
+        </b:stripe>
+    </t:stripe_content_main>
+
+
+
+    <t:logo>
+        <b:logo>
+            <e:in>
+                <b:link x:href="index.html">
+                    <e:image x:src="images/logo.png"></e:image>
+                    Лого компании
+                </b:link>
+            </e:in>
+        </b:logo>
+    </t:logo>
+
+    <t:header>
+        <b:header>
+            <e:top>
+                <p:content/>
+            </e:top>
+            <e:desc>
+              <e:text>
+                  Hi there! We are the new kids on the block <br />and we build awesome
+                  websites and mobile apps.
+              </e:text>
+            </e:desc>
+        </b:header>
+    </t:header>
+
+    <t:navigation-block>
+        <b:navigation-block>
+            <b:link>
+                <m:content val="toggle-menu" x:href="#"/>
+                <e:image block="main-navigation" x:src="images/nav.png" x:alt=""></e:image>
+            </b:link>
+            <b:navigation>
+                <e:item>
+                    <b:link href="#home">Home</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#services">Services</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#team">Our Team</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#skillls">Skills</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#works">Works</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#about">About</b:link>
+                </e:item>
+                <e:item>
+                    <b:link href="#contact">Contact</b:link>
+                </e:item>
+                <b:clearfix></b:clearfix>
+                <cdata><![CDATA[<script type="text/javascript" src="js/responsive-nav.js"></script>]]></cdata>
+            </b:navigation>
+        </b:navigation-block>
+    </t:navigation-block>
+
+
 </templates>
