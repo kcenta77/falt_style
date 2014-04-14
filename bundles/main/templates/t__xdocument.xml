@@ -36,6 +36,7 @@
 
 <t:xstyles>
 	<b:xlink x:href="css/main.styles.css"><m:style/></b:xlink>
+    <b:xlink x:href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' x:rel='stylesheet' ></b:xlink>
 	<p:content/>
 	<cdata><![CDATA[<!--[if IE 9 ]>]]></cdata>
 		<b:xlink x:href="css/main.styles.ie9.css"><m:style/></b:xlink>
@@ -57,6 +58,8 @@
 	</t:javascript_head>
 
 	<t:javascript_body>
+        <b:xscript x:src="js/jquery.scrollTo.js"/>
+        <b:xscript x:src="js/jquery.nav.js"/>
 		<p:content/>
 	</t:javascript_body>
 

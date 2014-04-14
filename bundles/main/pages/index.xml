@@ -16,11 +16,33 @@
             <b:xscript x:src="js/jquery.easing.min.js"/>
             <b:xscript x:src="js/jquery.mixitup.min.js"/>
             <b:xscript x:src="js/common.js"/>
+
         </p:javascript_head>
 
         <p:page>
             <p:stripe_content_header/>
             <p:stripe_content_main/>
+            <p:stripe_content_about/>
+            <p:stripe_content_feedback/>
+            <cdata><![CDATA[
+                    <script src="js/jquery.scrollTo.js"></script>
+                    <script src="js/jquery.nav.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            $('#nav').onePageNav({
+                                begin: function() {
+                                    console.log('start')
+                                },
+                                end: function() {
+                                    console.log('stop')
+                                }
+                            });
+                        });
+                    </script>
+
+
+
+                    ]]></cdata>
         </p:page>
 
 	</templates>

@@ -25,7 +25,7 @@ $(document).ready(function() {
         });
 });
 
-/******** MixItUp plugin *********/
+/******** MixItUp plugin *****
 // http://mixitup.io
 $(function () {
 
@@ -52,4 +52,4 @@ $(function () {
     // Run the show!
     filterList.init();
 
-});
+});****/
