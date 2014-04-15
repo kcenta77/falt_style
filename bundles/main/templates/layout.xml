@@ -12,4 +12,14 @@
 		</b:page>
 	</t:page>
 
+    <t:stripe_content_header>
+        <b:stripe x:id="home"><a:header block="true"/>
+            <m:content val="header"/>
+            <p:header>
+                <p:logo/>
+                <p:navigation-block/>
+            </p:header>
+        </b:stripe>
+    </t:stripe_content_header>
+
 </templates>

@@ -54,6 +54,7 @@
         <cdata><![CDATA[<!-- Add fancyBox and main JS -->]]></cdata>
         <b:xscript x:src="js/jquery.fancybox.js"/>
         <b:xscript x:src="js/jquery.fancybox-media.js"/>
+        <b:xscript x:src="js/jquery.mixitup.min.js"/>
 		<p:content/>
 	</t:javascript_head>
 

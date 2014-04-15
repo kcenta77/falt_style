@@ -297,7 +297,9 @@ body{
       width: auto;
     }
   }
-
+  &__group {
+    margin-top: 3em;
+  }
 }
 .b-line {
   text-align: center;
@@ -336,6 +338,23 @@ body{
 .b-grid {
   &_content_services {
     margin-top: 3em;
+    .b-grid__item {
+      padding-left: 0;
+      padding-right: 0;
+      width: 23.8%;
+    }
+  }
+  &_content_team {
+    .b-grid__item {
+      padding-left: 0;
+      padding-right: 0;
+      width: 23.8%;
+    }
+    .b-grid__title {
+      margin-top: 10px;
+      color: #3c4761;
+      -webkit-text-stroke: 2px;
+    }
   }
   &__item {
     padding: 1.5%;
@@ -375,8 +394,10 @@ body{
   }
 }
 .b-social-network {
+  margin-top: 1em;
   &__item {
     display: inline-block;
+    text-align: center;
     margin-left: 7px;
     &:first-child {
       margin-left: 0;
@@ -392,13 +413,13 @@ body{
       -o-transition: all 0.3 ease 0s;
       transition: all 0.3 ease 0s;
       &:hover {
-        background:#4af8c0;
+        background:#4a8fc0;
       }
     }
   }
 }
 /**************** Media Quries ************************/
-/*@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px){
   .b-stripe__in,
   .b-section__in {
     width:90%;
@@ -529,4 +550,4 @@ body{
   .feedback input[type="text"], .feedback textarea{
     margin-bottom:1em;
   }
-}     */
+}

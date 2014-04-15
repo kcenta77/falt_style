@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?><templates xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
-    <t:page>
-        <b:page>
-            <p:content/>
-        </b:page>
-    </t:page>
-
-    <t:layout>
-        <p:xdocument>
-            <p:page/>
-        </p:xdocument>
-    </t:layout>
-
     <t:stripe_content_header>
         <b:stripe x:id="home"><a:header block="true"/>
             <m:content val="header"/>
@@ -98,18 +86,24 @@
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="twitter"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="inliked"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="mail"/>
@@ -133,22 +127,20 @@
                                                 <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
-                                                            <m:type val="facebook"/>
-                                                            <m:type val="social"/>
-                                                        </b:ico>
-                                                    </b:link>
-                                                    <b:link x:href="#">
-                                                        <b:ico>
                                                             <m:type val="twitter"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                </e:item>
+                                                <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="inliked"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                </e:item>
+                                                <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="mail"/>
@@ -176,18 +168,24 @@
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="twitter"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="inliked"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                    </e:item>
+                                                    <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="mail"/>
@@ -215,21 +213,19 @@
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                </e:item>
+                                                <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="twitter"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
+                                                </e:item>
+                                                <e:item>
                                                     <b:link x:href="#">
                                                         <b:ico>
                                                             <m:type val="inliked"/>
-                                                            <m:type val="social"/>
-                                                        </b:ico>
-                                                    </b:link>
-                                                    <b:link x:href="#">
-                                                        <b:ico>
-                                                            <m:type val="mail"/>
                                                             <m:type val="social"/>
                                                         </b:ico>
                                                     </b:link>
@@ -245,22 +241,120 @@
                         <m:content val="skills" x:id="skills"/>
                         <m:type val="inner"/>
                         <e:in>
-                            <e:title>Services we Provide</e:title>
+                            <e:title>WE GOT SKILLS!</e:title>
                             <b:line>
                                 <m:color val="skyblue"/>
                                 <e:in/>
                             </b:line>
+                            <e:subtitle>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</e:subtitle>
+                            <b:grid>
+                                <m:content val="team"/>
+                                <m:type val="inner"/>
+                                <e:group block="section" x:id="canvas">
+                                    <a:list/>
+                                    <e:item>
+                                        <e:circle x:id="circles-1"></e:circle>
+                                        <e:title>Web Design</e:title>
+                                    </e:item>
+                                    <e:item>
+                                        <e:circle x:id="circles-2"></e:circle>
+                                        <e:title>Html / Css</e:title>
+                                    </e:item>
+                                    <e:item>
+                                        <e:circle x:id="circles-3"></e:circle>
+                                        <e:title>Graphic Design</e:title>
+                                    </e:item>
+                                    <e:item>
+                                        <e:circle x:id="circles-4"></e:circle>
+                                        <e:title>Ui / Ux</e:title>
+                                    </e:item>
+                                </e:group>
+                            </b:grid>
                         </e:in>
+                        <cdata><![CDATA[
+                                <script type="text/javascript" src="js/circles.js"></script>
+                                <script>
+                                    var colors = [
+                                            ['#dfe8ed', '#30bae7'], ['#dfe8ed', '#d74680'], ['#dfe8ed', '#15c7a8'], ['#dfe8ed', '#eb7d4b']
+                                        ];
+
+                                    for (var i = 1; i <= 5; i++) {
+                                        var child = document.getElementById('circles-' + i),
+                                            percentage = 50 + (i * 10);
+
+                                        Circles.create({
+                                            id:         child.id,
+                                            percentage: percentage,
+                                            radius:     80,
+                                            width:      15,
+                                            number:   	percentage / 10,
+                                            text:       '%',
+                                            colors:     colors[i - 1]
+                                        });
+                                    }
+
+                                </script>
+                                ]]></cdata>
                     </b:section>
                     <b:section>
                         <m:content val="portfolio" x:id="portfolio"/>
                         <m:type val="inner"/>
                         <e:in>
-                            <e:title>Services we Provide</e:title>
+                            <e:title>Our Portfolio</e:title>
                             <b:line>
                                 <m:color val="yellow"/>
                                 <e:in/>
                             </b:line>
+                            <b:portfolio>
+                                <b:filter x:id="filters">
+                                    <e:item>
+                                        <e:in x:data-filter="web apps icons">All</e:in>
+                                    </e:item>
+                                    <e:item>
+                                        <e:in x:data-filter="web">Web</e:in>
+                                    </e:item>
+                                    <e:item>
+                                        <e:in x:data-filter="apps">Apps</e:in>
+                                    </e:item>
+                                    <e:item>
+                                        <e:in x:data-filter="icons">Icons</e:in>
+                                    </e:item>
+                                </b:filter>
+                                <e:list x:id="portfoliolist">
+                                    <e:item x:data-cat="web"><alxc:portfolio/><alxc:web/><alxc:icons/>
+                                        <e:wrap>
+                                            <b:link noblock="true">
+                                                <e:image x:src="images/bg/portfolio_img1.png" x:alt=""/>
+                                                <e:subtitle>Isometric Perspective Mock-Up</e:subtitle>
+                                            </b:link>
+                                        </e:wrap>
+                                    </e:item>
+                                    <e:item x:data-cat="apps"><alxc:portfolio/><alxc:apps/>
+                                        <e:wrap>
+                                            <b:link noblock="true">
+                                                <e:image x:src="images/bg/portfolio_img2.png" x:alt=""/>
+                                                <e:subtitle>Isometric Perspective Mock-Up</e:subtitle>
+                                            </b:link>
+                                        </e:wrap>
+                                    </e:item>
+                                    <e:item x:data-cat="web"><alxc:portfolio/><alxc:web/><alxc:icons/>
+                                        <e:wrap>
+                                            <b:link noblock="true">
+                                                <e:image x:src="images/bg/portfolio_img3.png" x:alt=""/>
+                                                <e:subtitle>Isometric Perspective Mock-Up</e:subtitle>
+                                            </b:link>
+                                        </e:wrap>
+                                    </e:item>
+                                    <e:item x:data-cat="icons"><alxc:portfolio/><alxc:icons/>
+                                        <e:wrap>
+                                            <b:link noblock="true">
+                                                <e:image x:src="images/bg/portfolio_img4.png" x:alt=""/>
+                                                <e:subtitle>Isometric Perspective Mock-Up</e:subtitle>
+                                            </b:link>
+                                        </e:wrap>
+                                    </e:item>
+                                </e:list>
+                            </b:portfolio>
                         </e:in>
                     </b:section>
                 </b:section>
@@ -307,6 +401,10 @@
             </e:in>
         </b:stripe>
     </t:stripe_content_feedback>
+
+
+
+
 
     <t:logo>
         <b:logo>
