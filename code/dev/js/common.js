@@ -34,7 +34,7 @@ $(function () {
         init: function () {
 
             $('#portfoliolist').mixitup({
-                targetSelector: '.portfolio',
+                targetSelector: '.b-portfolio__item',
                 filterSelector: '.filter',
                 effects: ['fade'],
                 easing: 'snap',

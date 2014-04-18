@@ -16,7 +16,6 @@
             <b:xscript x:src="js/jquery.easing.min.js"/>
             <b:xscript x:src="js/jquery.mixitup.min.js"/>
             <b:xscript x:src="js/common.js"/>
-
         </p:javascript_head>
 
         <p:page>
@@ -24,6 +23,7 @@
             <p:stripe_content_main/>
             <p:stripe_content_about/>
             <p:stripe_content_feedback/>
+            <p:stripe_content_footer/>
             <cdata><![CDATA[
                     <script src="js/jquery.scrollTo.js"></script>
                     <script src="js/jquery.nav.js"></script>
@@ -39,9 +39,6 @@
                             });
                         });
                     </script>
-
-
-
                     ]]></cdata>
         </p:page>
 

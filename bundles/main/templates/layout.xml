@@ -22,4 +22,36 @@
         </b:stripe>
     </t:stripe_content_header>
 
+    <t:stripe_content_main>
+        <b:stripe>
+            <m:content val="main"/>
+            <b:section>
+                <m:content val="content"/>
+                <p:section_type_services/>
+                <p:section_type_team/>
+                <p:section_type_skills/>
+                <p:section_type_portfolio/>
+            </b:section>
+            <p:section_type_about/>
+            <p:section_type_feedback/>
+        </b:stripe>
+    </t:stripe_content_main>
+
+    <t:stripe_content_footer>
+        <b:stripe>
+            <m:content val="footer"/>
+            <e:in>
+                <b:copy-right>
+                    <e:in>
+                        <cdata><![CDATA[
+                            &copy; 2013 Template by ]]></cdata><b:link
+                            x:href="http://w3layouts.com"
+                            x:target="_blank">w3layouts</b:link>
+
+                    </e:in>
+                </b:copy-right>
+            </e:in>
+        </b:stripe>
+    </t:stripe_content_footer>
+
 </templates>
